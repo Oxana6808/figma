@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  background: rgba(5, 8, 33, 0.89);
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dc4c4c;
+}
+
+.header {
+  position: absolute;
+  width: 1303px;
+  height: 133px;
+  left: 78px;
+}
+
+.name {
+  position: absolute;
+  width: 467px;
+  height: 88px;
+  left: calc(50% - 467px / 2 - 408.5px);
+  top: 73px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133.4%;
+  /* or 64px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+
+  color: #dc4c4c;
+}
+
+/* HOME */
+
+.home {
+  position: absolute;
+  width: 106px;
+  height: 64.99px;
+  left: 711px;
+  top: 73px;
+  
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 133.4%;
+  /* or 43px */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;
+}
+
+/* CONTACT */
+
+.contact {
+position: absolute;
+width: 170px;
+height: 64.99px;
+left: 1211px;
+top: 73px;
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 133.4%;
+/* or 43px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+
+/* ABOUT */
+
+.about {
+  position: absolute;
+  width: 126px;
+  height: 64.99px;
+  left: 856px;
+  top: 73px;
+  
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 133.4%;
+  /* or 43px */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;
+}
+
+/* SERVICE */
+
+.service {
+  position: absolute;
+  width: 151px;
+  height: 64.99px;
+  left: 1021px;
+  top: 73px;
+  
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 133.4%;
+  /* or 43px */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;
+}
+
+.content {
+  width: 1313px;
+  height: 717px;
+  left: 43px;
+  top: 261px;
+}
+
+.info {
+  width: 614px;
+  height: 287px;
+  left: 78px;
+  top: 455px;
+}
+
+.welcome {
+  position: absolute;
+  width: 614px;
+  height: 45px;
+  left: 78px;
+  top: 491px;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 133.4%;
+  /* or 53px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+
+  color: #DC4C4C;
+}
+
+.i_am {
+  position: absolute;
+  width: 614px;
+  height: 53px;
+  left: 78px;
+  top: 567px;
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 133.4%;
+  /* or 85px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+
+  color: #FFFFFF;
+}
+
+.text{
+  position: absolute;
+  width: 644px;
+  height: 109px;
+  left: 78px;
+  top: 636px;
+  
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 133.4%;
+  /* or 21px */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;
+}
+
+.soc_net {
+  position: absolute;
+  width: 310px;
+  height: 45px;
+  left: 78px;
+  top: 767px;
+}
+
+.photo_git {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  mix-blend-mode: hard-light;
+}
+
+.photo_link {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 86px;
+  mix-blend-mode: hard-light;
+}
+
+.photo_faceb {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 172px;
+  mix-blend-mode: hard-light;
+}
+
+.photo_mail {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 258px;
+  mix-blend-mode: hard-light;
+}
+
+.photo {
+  width: 618px;
+  height: 717px;
+  left: 773px;
+  top: 261px;
+}
+
+.circle {
+  position: absolute;
+  width: 618px;
+  height: 581px;
+  left: 773px;
+  top: 289px;
+  mix-blend-mode: color-dodge;
+}
+
+.avatar {
+  position: absolute;
+  width: 600px;
+  height: 717px;
+  left: 791px;
+  top: 261px;
+  mix-blend-mode: hard-light;
+  border-radius: 1px;
+}
